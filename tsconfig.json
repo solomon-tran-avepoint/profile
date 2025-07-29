@@ -8,10 +8,10 @@
       "path": "./tsconfig.node.json"
     }
   ],
-  "baseUrl": "src",
-  "paths": {
-    "@assets/*": [
-      "assets/*"
-    ]
+  "compilerOptions": {
+    "baseUrl": "src",
+    "paths": {
+      "@assets/*": ["assets/*"]
+    }
   }
 }
